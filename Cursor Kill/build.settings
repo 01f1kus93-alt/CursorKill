@@ -1,0 +1,30 @@
+settings =
+{
+    orientation =
+    {
+        default = "landscapeRight",
+        supported = { "landscapeLeft", "landscapeRight" },
+    },
+    
+    window =
+    {
+        defaultMode = "fullscreen",
+    },
+    
+    iphone =
+    {
+        plist =
+        {
+            CFBundleDisplayName = "Моя Игра",
+            CFBundleShortVersionString = "1.6",
+            CFBundleVersion = "1",
+        },
+    },
+    
+    android =
+    {
+        versionCode = "24",
+        versionName = "1.6",
+    },
+    
+}
